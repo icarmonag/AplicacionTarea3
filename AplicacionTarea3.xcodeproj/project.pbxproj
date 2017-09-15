@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2C299C381F6C1712000A08F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C299C371F6C1712000A08F9 /* main.m */; };
 		2C299C3B1F6C1712000A08F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C299C3A1F6C1712000A08F9 /* AppDelegate.m */; };
-		2C299C3E1F6C1712000A08F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C299C3D1F6C1712000A08F9 /* ViewController.m */; };
+		2C299C3E1F6C1712000A08F9 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C299C3D1F6C1712000A08F9 /* Home.m */; };
 		2C299C411F6C1712000A08F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C299C3F1F6C1712000A08F9 /* Main.storyboard */; };
 		2C299C441F6C1712000A08F9 /* AplicacionTarea3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C299C421F6C1712000A08F9 /* AplicacionTarea3.xcdatamodeld */; };
 		2C299C461F6C1713000A08F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C299C451F6C1713000A08F9 /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		2C299C371F6C1712000A08F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C299C391F6C1712000A08F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C299C3A1F6C1712000A08F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2C299C3C1F6C1712000A08F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2C299C3D1F6C1712000A08F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C299C3C1F6C1712000A08F9 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		2C299C3D1F6C1712000A08F9 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		2C299C401F6C1712000A08F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C299C431F6C1712000A08F9 /* AplicacionTarea3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AplicacionTarea3.xcdatamodel; sourceTree = "<group>"; };
 		2C299C451F6C1713000A08F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		2C299C351F6C1712000A08F9 /* AplicacionTarea3 */ = {
 			isa = PBXGroup;
 			children = (
-				2C299C391F6C1712000A08F9 /* AppDelegate.h */,
-				2C299C3A1F6C1712000A08F9 /* AppDelegate.m */,
-				2C299C3C1F6C1712000A08F9 /* ViewController.h */,
-				2C299C3D1F6C1712000A08F9 /* ViewController.m */,
+				2C299C511F6C1774000A08F9 /* Controllers */,
+				2C299C501F6C172D000A08F9 /* Main */,
 				2C299C3F1F6C1712000A08F9 /* Main.storyboard */,
 				2C299C451F6C1713000A08F9 /* Assets.xcassets */,
 				2C299C471F6C1713000A08F9 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				2C299C371F6C1712000A08F9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C299C501F6C172D000A08F9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2C299C391F6C1712000A08F9 /* AppDelegate.h */,
+				2C299C3A1F6C1712000A08F9 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		2C299C511F6C1774000A08F9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C299C3D1F6C1712000A08F9 /* Home.m */,
+				2C299C3C1F6C1712000A08F9 /* Home.h */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C299C441F6C1712000A08F9 /* AplicacionTarea3.xcdatamodeld in Sources */,
-				2C299C3E1F6C1712000A08F9 /* ViewController.m in Sources */,
+				2C299C3E1F6C1712000A08F9 /* Home.m in Sources */,
 				2C299C3B1F6C1712000A08F9 /* AppDelegate.m in Sources */,
 				2C299C381F6C1712000A08F9 /* main.m in Sources */,
 			);
