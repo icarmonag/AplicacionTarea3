@@ -124,6 +124,9 @@
 		2C299C2B1F6C1712000A08F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					lblRed,
+				);
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = wondererApps;
 				TargetAttributes = {
